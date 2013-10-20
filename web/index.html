@@ -1,5 +1,49 @@
+<!doctype html>
 <html>
-	<body>
-	<h1>Hello World!</h1>
+	<head>
+		<title>DevFest Israel 2013</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
+		<script src="js/app.js"></script>
+	</head>
+
+	<body ng-app="DevFest">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" navbar>
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle">
+						<span class="sr-only">Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">DevFest Israel</a>
+				</div>
+				<div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-links">
+					<ul class="nav navbar-nav">
+						<li class="red home-link active"><a href="#">Home</a></li>
+						<li class="blue speakers-link"><a href="#speakers">Speakers</a></li>
+						<li class="green schedule-link"><a href="#schedule">Schedule</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div ng-controller="CountDownCtrl">
+			<div class="clock row">
+				<span gdg-countdown data-title="DAYS" data-value="countDown.days"></span>
+				<span gdg-countdown data-title="HOURS" data-value="countDown.hours"></span>
+				<span gdg-countdown data-title="MINUTES" data-value="countDown.minutes"></span>
+				<span gdg-countdown data-title="SECONDS" data-value="countDown.seconds"></span>
+			</div>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,94 @@
+body {
+  padding-top: 80px;
+  background-image: url("../images/devfest-wallpaper.png");
+  background-color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+  color: #505050; }
+
+h1, h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
+
+.lead {
+  font-weight: 300; }
+
+.navbar {
+  border: none; }
+  .navbar li a {
+    border-bottom: 5px solid #222222; }
+  .navbar li.active.red a,
+  .navbar li.red a:hover {
+    border-bottom: 5px solid #d53f34; }
+  .navbar li.active.blue a,
+  .navbar li.blue a:hover {
+    border-bottom: 5px solid #4486f8; }
+  .navbar li.active.green a,
+  .navbar li.green a:hover {
+    border-bottom: 5px solid #0aa25a; }
+  .navbar li.active.yellow a,
+  .navbar li.yellow a:hover {
+    border-bottom: 5px solid #fbc944; }
+  .navbar li.red a:hover,
+  .navbar li.active.red:hover a {
+    background-color: #d53f34; }
+  .navbar li.blue a:hover,
+  .navbar li.active.blue:hover a {
+    background-color: #4486f8; }
+  .navbar li.green a:hover,
+  .navbar li.active.green:hover a {
+    background-color: #0aa25a; }
+  .navbar li.yellow a:hover,
+  .navbar li.active.yellow:hover a {
+    background-color: #fbc944; }
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding: 0; }
+
+  .navbar-brand {
+    padding: 5px 10px; } }
+.nav > li > a {
+  padding: 5px 10px; }
+
+.navbar {
+  min-height: 0; }
+
+.countdown-item {
+  line-height: 20px;
+  white-space: nowrap; }
+  .countdown-item .wrap {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.102);
+    color: #fff;
+    height: 270px;
+    width: 272px;
+    text-align: center; }
+  .countdown-item .inner {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 13px solid #343539;
+    height: 244px;
+    margin: 12px;
+    position: relative;
+    width: 244px; }
+    .countdown-item .inner .text {
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+      margin-top: -20px;
+      position: absolute;
+      top: 50%;
+      width: 100%; }
+      .countdown-item .inner .text .val {
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 74px;
+        font-weight: bold;
+        margin-bottom: 30px; }

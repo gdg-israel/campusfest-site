@@ -1,0 +1,130 @@
+body {
+	padding-top: 80px;
+	background-image: url('../images/devfest-wallpaper.png');
+	background-color: rgb(229, 229, 229);
+	font-family: 'Roboto', sans-serif;
+	color: #505050;
+}
+
+h1, h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.lead {
+	font-weight: 300;
+}
+
+.navbar {
+	border: none;
+	li a {
+		border-bottom: 5px solid rgb(34, 34, 34);
+	}
+
+	li.active.red a,
+	li.red a:hover {
+		border-bottom: 5px solid rgb(213, 63, 52);
+	}
+
+	li.active.blue a,
+	li.blue a:hover {
+		border-bottom: 5px solid rgb(68, 134, 248);
+	}
+
+	li.active.green a,
+	li.green a:hover {
+		border-bottom: 5px solid rgb(10, 162, 90);
+	}
+
+	li.active.yellow a,
+	li.yellow a:hover {
+		border-bottom: 5px solid rgb(251, 201, 68);
+	}
+
+	li.red a:hover,
+	li.active.red:hover a {
+		background-color: rgb(213, 63, 52);
+	}
+
+	li.blue a:hover,
+	li.active.blue:hover a {
+		background-color: rgb(68, 134, 248);
+	}
+
+	li.green a:hover,
+	li.active.green:hover a {
+		background-color: rgb(10, 162, 90);
+	}
+
+	li.yellow a:hover,
+	li.active.yellow:hover a {
+		background-color: rgb(251, 201, 68);
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+		padding: 0;
+	}
+	.navbar-brand {
+		padding: 5px 10px;
+	}
+}
+
+.nav>li>a {
+	padding: 5px 10px;
+}
+
+.navbar {
+	min-height: 0;
+}
+
+.countdown-item {
+	line-height: 20px;
+	white-space: nowrap;
+
+	.wrap {
+		border-radius: 50%;
+		border: 1px solid rgba(255,255,255,0.6);
+		box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.102);
+		color: #fff;
+		height: 270px;
+		width: 272px;
+		text-align: center;
+	}
+
+	.inner {
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		-o-border-radius: 50%;
+		border-radius: 50%;
+		-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+		-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+		box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+		background-color: rgba(0, 0, 0, 0.3);
+		border: 13px solid #343539;
+		height: 244px;
+		margin: 12px;
+		position: relative;
+		width: 244px;
+
+		.text {
+			font-size: 16px;
+			font-weight: bold;
+			text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+			margin-top: -20px;
+			position: absolute;
+			top: 50%;
+			width: 100%;
+
+			.val {
+				font-family: "Open Sans", "Arial", sans-serif;
+				font-size: 74px;
+				font-weight: bold;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
