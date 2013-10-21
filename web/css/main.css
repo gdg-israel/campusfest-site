@@ -62,8 +62,8 @@ h1, h5 {
     border: 1px solid rgba(255, 255, 255, 0.6);
     box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.102);
     color: #fff;
-    height: 270px;
-    width: 272px;
+    height: 135px;
+    width: 136px;
     text-align: center; }
   .countdown-item .inner {
     -webkit-border-radius: 50%;
@@ -75,11 +75,11 @@ h1, h5 {
     -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
     background-color: rgba(0, 0, 0, 0.3);
-    border: 13px solid #343539;
-    height: 244px;
-    margin: 12px;
-    position: relative;
-    width: 244px; }
+    border: 6px solid #343539;
+    margin: 6px;
+    height: 122px;
+    width: 122px;
+    position: relative; }
     .countdown-item .inner .text {
       font-size: 16px;
       font-weight: bold;
@@ -90,22 +90,42 @@ h1, h5 {
       width: 100%; }
       .countdown-item .inner .text .val {
         font-family: "Open Sans", "Arial", sans-serif;
-        font-size: 74px;
-        font-weight: bold;
-        margin-bottom: 30px; }
-
-.countdown-container {
-  zoom: 0.5; }
+        font-size: 42px;
+        font-weight: bold; }
 
 @media (min-width: 768px) {
-  .countdown-container {
-    zoom: 0.6; } }
+  .countdown-item .wrap {
+    height: 162px;
+    width: 163.2px; }
+    .countdown-item .wrap .inner {
+      border-width: 11px;
+      margin: 7px;
+      width: 146.4px;
+      height: 146.4px; }
+      .countdown-item .wrap .inner .text .val {
+        margin-bottom: 10px;
+        font-size: 50px; } }
 @media (min-width: 992px) {
-  .countdown-container {
-    zoom: 0.75; } }
+  .countdown-item .wrap {
+    height: 202.5px;
+    width: 204px; }
+    .countdown-item .wrap .inner {
+      border-width: 11px;
+      margin: 9px;
+      width: 183px;
+      height: 183px; }
+      .countdown-item .wrap .inner .text .val {
+        font-size: 74px;
+        margin-bottom: 30px; } }
 @media (min-width: 1200px) {
-  .countdown-container {
-    zoom: 1; } }
+  .countdown-item .wrap {
+    height: 270px;
+    width: 272px; }
+    .countdown-item .wrap .inner {
+      border-width: 13px;
+      margin: 12px;
+      width: 244px;
+      height: 244px; } }
 .features-wrapper {
   padding: 64px 0;
   background-color: #292c33;
