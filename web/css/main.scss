@@ -6,9 +6,8 @@ body {
 	color: #505050;
 }
 
-h1, h5 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
+h1, h2, h3, h4, h5 {
+	font-family: "Open Sans","Arial",sans-serif;
 }
 
 .lead {
@@ -79,11 +78,20 @@ h1, h5 {
 	min-height: 0;
 }
 
+@import 'compass/css3/transition';
+@import 'compass/css3/box-shadow';
+@import 'compass/css3/box-sizing';
+@import 'compass/css3/border-radius';
+
+@import 'helpers/variables';
 @import 'helpers/countdown';
+@import 'helpers/partners';
+@import 'helpers/parallax';
+@import 'helpers/speakers';
 
 .features-wrapper {
 	padding: 64px 0;
-	background-color: rgb(41, 44, 51);
+	background-color: #24272D;
 	color: white;
 
 	.blue {

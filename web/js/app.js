@@ -1,6 +1,6 @@
 'use strict';
 
-var devFest = angular.module('DevFest', []);
+var devFest = angular.module('DevFest', ['ui.bootstrap']);
 
 devFest.directive('gdgNavbar', function () {
 	return function (scope, element) {
