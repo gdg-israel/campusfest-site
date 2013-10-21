@@ -1,8 +1,3 @@
-$screen-xs: 480px;
-$screen-sm: 768px;
-$screen-md: 992px;
-$screen-lg: 1200px;
-
 body {
 	padding-top: 80px;
 	background-image: url('../images/devfest-wallpaper.png');
@@ -84,106 +79,7 @@ h1, h5 {
 	min-height: 0;
 }
 
-.countdown-item {
-	line-height: 20px;
-	white-space: nowrap;
-	margin-bottom: 32px;
-
-	.wrap {
-		border-radius: 50%;
-		border: 1px solid rgba(255, 255, 255, 0.6);
-		box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.102);
-		color: #fff;
-		height: 270px * 0.5;
-		width: 272px * 0.5;
-		text-align: center;
-	}
-
-	.inner {
-		-webkit-border-radius: 50%;
-		-moz-border-radius: 50%;
-		-ms-border-radius: 50%;
-		-o-border-radius: 50%;
-		border-radius: 50%;
-		-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
-		-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
-		box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
-		background-color: rgba(0, 0, 0, 0.3);
-		border: 6px solid #343539;
-		margin: 6px;
-		height: 244px * 0.5;
-		width: 244px * 0.5;
-		position: relative;
-
-		.text {
-			font-size: 16px;
-			font-weight: bold;
-			text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-			margin-top: -20px;
-			position: absolute;
-			top: 50%;
-			width: 100%;
-
-			.val {
-				font-family: "Open Sans", "Arial", sans-serif;
-				font-size: 42px;
-				font-weight: bold;
-			}
-		}
-	}
-}
-
-@media (min-width: $screen-sm) {
-	.countdown-item .wrap {
-		height: 270px * 0.6;
-		width: 272px * 0.6;
-
-		.inner {
-			border-width: 11px;
-			margin: 7px;
-			width: 244px * 0.6;
-			height: 244px * 0.6;
-
-			.text .val {
-				margin-bottom: 10px;
-				font-size: 50px;
-			}
-		}
-	}
-}
-
-@media (min-width: $screen-md) {
-	.countdown-item .wrap {
-		height: 270px * 0.75;
-		width: 272px * 0.75;
-
-		.inner {
-			border-width: 11px;
-			margin: 9px;
-			width: 244px * 0.75;
-			height: 244px * 0.75;
-
-			.text .val {
-				font-size: 74px;
-				margin-bottom: 30px;
-			}
-		}
-	}
-}
-
-@media (min-width: $screen-lg) {
-	.countdown-item .wrap {
-		height: 270px;
-		width: 272px;
-
-		.inner {
-			border-width: 13px;
-			margin: 12px;
-			width: 244px;
-			height: 244px;
-		}
-	}
-}
+@import 'helpers/countdown';
 
 .features-wrapper {
 	padding: 64px 0;
@@ -233,5 +129,5 @@ h1, h5 {
 			vertical-align: text-top;
 		}
 	}
-
 }
+
