@@ -1,3 +1,8 @@
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
 body {
 	padding-top: 80px;
 	background-image: url('../images/devfest-wallpaper.png');
@@ -126,6 +131,29 @@ h1, h5 {
 				margin-bottom: 30px;
 			}
 		}
+	}
+}
+
+.countdown-container {
+	zoom: 0.5;
+}
+
+@media (min-width: $screen-sm) {
+	.countdown-container {
+		zoom:0.6;
+	}
+}
+
+
+@media (min-width: $screen-md) {
+	.countdown-container {
+		zoom:0.75;
+	}
+}
+
+@media (min-width: $screen-lg) {
+	.countdown-container {
+		zoom:1;
 	}
 }
 

@@ -32,7 +32,7 @@ devFest.directive('gdgCountdown', function () {
 			title: '@'
 		},
 		replace: true,
-		template: '<div class="countdown-item col-md-3"><div class="wrap">' +
+		template: '<div class="countdown-item col-xs-3"><div class="wrap">' +
 			'<div class="inner"><div class="text"><p class="val">{{value}}</p>' +
 			'<p>{{title}}</p></div></div></div></div>'
 	};
