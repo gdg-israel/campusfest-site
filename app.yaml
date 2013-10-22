@@ -8,6 +8,7 @@ handlers:
 - url: /
   static_files: web/index.html
   upload: web/index.html
+  expiration: "1m"
 
 - url: /
   static_dir: web
