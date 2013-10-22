@@ -6,6 +6,10 @@ threadsafe: yes
 
 handlers:
 - url: /
+  static_files: web/index.html
+  upload: web/index.html
+
+- url: /
   static_dir: web
 
 libraries:
