@@ -28,6 +28,21 @@ $parallaxPrefix: "../images/parallax/parallax-bg";
 				padding-left: 10px;
 				padding-right: 10px;
 			}
+			.schedule {
+				h4 {
+					padding-top: 12px;
+				}
+
+				background-color: rgba(255, 255, 255, 0.8);
+				max-width: 250px;
+				margin: 0 auto;
+				border-radius: 8px;
+
+				.schedule-line {
+					font-size: 18px;
+					text-align: left;
+				}
+			}
 		}
 		iframe {
 			max-width: 100%;
@@ -39,7 +54,7 @@ $parallaxPrefix: "../images/parallax/parallax-bg";
 	.parallax-wrapper {
 		background-size: cover;
 		background-position: 0 0;
-		background-attachment:  scroll;
+		background-attachment: scroll;
 
 		.parallax {
 			.inner {
@@ -58,9 +73,6 @@ $parallaxPrefix: "../images/parallax/parallax-bg";
 				.parallax-title {
 					font-size: 46px;
 					line-height: 56px;
-				}
-				.schedule-line {
-					font-size: 18px;
 				}
 			}
 		}
