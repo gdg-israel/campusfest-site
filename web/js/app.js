@@ -5,7 +5,7 @@ var devFest = angular.module('DevFest', ['ui.bootstrap']);
 devFest.directive('gdgNavbar', function () {
 	return function (scope, element) {
 		element.bind('click', function () {
-			angular.forEach(document.querySelectorAll('.active'), function (val) {
+			angular.forEach(document.querySelectorAll('.navbar-fixed-top .active'), function (val) {
 				angular.element(val).removeClass('active');
 			});
 
