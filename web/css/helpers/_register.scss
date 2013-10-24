@@ -1,0 +1,20 @@
+.registration-wrapper {
+	background-color: $color-dark;
+	padding-bottom: 40px;
+	h2 {
+		padding-top: 50px;
+		color: #fff;
+		font-weight: lighter;
+		text-align: center;
+	}
+	h4 {
+		padding-bottom: 20px;
+		color: #898989;
+		text-align: center;
+	}
+	.registration {
+		font-family: $font-family-default;
+		margin: 0 0 20px;
+		text-align: center;
+	}
+}
