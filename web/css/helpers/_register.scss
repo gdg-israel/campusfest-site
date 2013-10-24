@@ -16,5 +16,13 @@
 		font-family: $font-family-default;
 		margin: 0 0 20px;
 		text-align: center;
+
+		i.icon {
+			font-size: 38px;
+			display: inline-block;
+			line-height: 8px;
+			position: relative;
+			top: 9px;
+		}
 	}
 }
