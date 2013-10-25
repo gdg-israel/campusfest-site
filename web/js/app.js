@@ -40,7 +40,7 @@ devFest.directive('gdgCountdown', function () {
 
 
 devFest.controller('CountDownCtrl', function ($scope, $timeout) {
-	var targetDate = new Date(1383235200000);
+	var targetDate = new Date(1383220800000);
 	var timer;
 
 	function updateCount() {
