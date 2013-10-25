@@ -17,12 +17,16 @@
 		margin: 0 0 20px;
 		text-align: center;
 
-		i.icon {
-			font-size: 38px;
-			display: inline-block;
-			line-height: 8px;
+		a.btn {
 			position: relative;
-			top: 9px;
+			padding-left: 48px;
+
+			i.icon {
+				font-size: 38px;
+				position: absolute;
+				top: 2px;
+				left: 8px;
+			}
 		}
 	}
 }
