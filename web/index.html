@@ -618,7 +618,46 @@ var WRInitTime=(new Date()).getTime();
 
 									<p class="company">CTO, SalesPredict</p>
 
-									<p class="talk-title">TBD</p>
+									<p class="talk-title">Predicting Future Events from Large-scale Digital Histories</p>
+
+									<p class='talk-desc'>
+										It has been a long time quest of artificial intelligence to develop
+										systems that can emulate human reasoning. Fundamental capabilities of
+										such intelligent behavior are the abilities to understand causality
+										and to predict. Those are essential for many artificial intelligence
+										tasks that rely on human common-sense reasoning, such as decision
+										making, planning, question-answering, inferring user intentions and
+										responses.
+									</p>
+
+									<a href="" ng-click="kiraDescReadMore=true" ng-hide="kiraDescReadMore">
+										Read more...
+									</a>
+
+									<p class='talk-desc' ng-show="kiraDescReadMore">
+										Much of the causal knowledge that helps humans understand the world is
+										recorded in texts that express people's beliefs and intuitions. The
+										World Wide Web encapsulates much of our human knowledge through news
+										archives and encyclopedias. This knowledge can serve as the basis for
+										performing true human-like prediction - with the ability to learn,
+										understand language, and possess intuitions and general world
+										knowledge.
+									</p>
+
+									<p class='talk-desc' ng-show="kiraDescReadMore">
+										In this talk I will present a learning system, which given an
+										event, represented in natural language, predicts a possible future
+										event it can cause. During its training, we constructed a
+										semantically-structured causality graph of 300 million fact nodes
+										connected by more than one billion edges, based on 150 year old news
+										archive crawled from the web. We devised a machine learning algorithm
+										that infers causality based on this graph. Using common-sense
+										ontologies , it generalizes the events it observes, and thus able to
+										reason about completely new events. We empirically evaluate our system
+										on the 2010 news, and compare our predictions to human predictions. The
+										results indicate that our system predicts similarly to the way humans
+										do.
+									</p>
 
 									<p class="time"><span class="time-start">19:15</span> - 20:00</p>
 								</div>
@@ -627,7 +666,14 @@ var WRInitTime=(new Date()).getTime();
 									<div class="about">
 										<h4>About Kira</h4>
 										<p>
-											Dr. Kira Radinsky is passionate about predictive data mining, the construction of algorithms that leverage web knowledge and dynamics to predict future events. 
+											Dr. Kira Radinsky is one of the up and coming voices in the data science community, offering a fresh perspective on data mining and its applications. Her work focuses on the intersection of predictive data mining and the construction of algorithms that leverage web-found information and external dynamics to predict future events.  A graduate of the Technion-Israel Institute of Technology, Dr. Radinsky gained international recognition for her work there and at Microsoft Research where she developed predictive algorithms that recognized the early warning of globally impactful events, (e.g. riots or diseases.)
+										</p>
+										<a href="" ng-click="kiraShowMore=true" ng-hide="kiraShowMore">Read more...</a>
+										<p ng-show="kiraShowMore">
+											Dr. Radinsky is the CTO and cofounder of SalesPredict, a sales technology company.  She is pioneering artificial intelligence based, predictive analytics solutions that transform the way companies do business.
+										</p>
+										<p ng-show="kiraShowMore">
+											In 2013, Kira Radinsky was named to the prestigious "35 Young Innovators Under 35", as chosen by the MIT Technology Review.
 										</p>
 									</div>
 								</div>
