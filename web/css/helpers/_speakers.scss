@@ -99,6 +99,10 @@
 			padding-top: 5px;
 			padding-bottom: 10px;
 		}
+        .talk-desc {
+            color: $color-gray-desc;
+            font-family: $font-family-standard;
+        }
 		.time {
 			color: rgba(255, 255, 255, .3);
 			font-size: 36px;

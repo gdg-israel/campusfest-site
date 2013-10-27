@@ -6,6 +6,11 @@
 			color: white;
 			font-weight: lighter;
 		}
+
+		.center {
+			text-align: center;
+		}
+
 		.our-partners-logo {
 			@include transition(all 0.2s ease);
 			opacity: 0.3;

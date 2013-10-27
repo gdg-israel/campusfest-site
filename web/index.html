@@ -15,13 +15,14 @@
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/main.css?v=5" rel="stylesheet">
 		<link href="font/pictopro-outline/style.css" rel="stylesheet">
-
-		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.6.0/ui-bootstrap-tpls.min.js"></script>
-		<script src="js/app.js?v=3"></script>
 	</head>
 
 	<body ng-app="DevFest">
+	<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
 		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" gdg-navbar>
 			<div class="container">
 				<div class="navbar-header">
@@ -46,7 +47,7 @@
 
 		<div ng-controller="CountDownCtrl" class="container">
 			<div class="countdown-container row">
-				<h1>Israel Developer Event</h1>
+                <h1><img src="/images/logo.png"><br>Developer Event</h1>
 				<h2>31.10.2013, 14:00</h2>
 				<span gdg-countdown data-title="DAYS" data-value="countDown.days"></span>
 				<span gdg-countdown data-title="HOURS" data-value="countDown.hours"></span>
@@ -58,12 +59,12 @@
 		<div id="register" class="registration-wrapper">
 			<div class="container">
 				<h2>Event Registration</h2>
-				<h4>register now and reserve your place</h4>
+				<h4>Register now and reserve your place</h4>
 
 				<div class="registration">
 					<a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/event/9004469611">
 						<i class="icon icon-outline-right-arrow"></i>
-						Register on EventBrite
+						Register
 					</a>
 				</div>
 			</div>
@@ -139,7 +140,7 @@
 									<div class="about">
 										<h4>About Liron</h4>
 										<p>
-										<a href="http://wishop.me" target="_blank">Wishop.me</a>
+										<a href="http://lirons.com" target="_blank">Lirons.com</a>
 										</p>
 									</div>
 								</div>
@@ -186,6 +187,8 @@
 
 									<p class="talk-title">C++11 &#38; Andorid NDK</p>
 
+                                    <p class="talk-desc">The session will cover the major new features in the C++11 standard and how they can be put to work in developing "realy" native modules for the perfromance critical parts of your Android applications using the NDK.</p>
+
 									<p class="time"><span class="time-start">16:30</span> - 17:15</p>
 								</div>
 
@@ -211,6 +214,8 @@
 									<p class="company">Android GDE, STB client team leader at Vidmind</p>
 
 									<p class="talk-title">Android Monetizing</p>
+
+                                    <p class="talk-desc">It's good that you have an idea and even better if you can implement it, but, if you don't know how to make money of it it will remain a hobby rather than a business. in this session i'll try to guide you through how to plan the business and a few tools that can help you from the Google ecosystem.</p>
 
 									<p class="time"><span class="time-start">17:15</span> - 18:00</p>
 								</div>
@@ -239,6 +244,8 @@
 
 									<p class="talk-title">Android Design - Onboarding and other UX</p>
 
+                                    <p class="talk-desc">Yossi will guide you through common UX issues and ways to create fluid onboarding experience for users in Android.</p>
+
 									<p class="time"><span class="time-start">18:30</span> - 19:15</p>
 								</div>
 
@@ -246,7 +253,7 @@
 									<div class="about">
 										<h4>About Yossi</h4>
 										<p>
-											TBD
+											As an Android user since G1 and developer just before SDK 1.0 i’ve seen the platform grows,evolve and spread to the entire world with great success. Tech enthusiast with the love to see/test and explore new products/ideas or pure code that can later help forge the way to people's hearts. Always keen to know more, just ping me anytime.
 										</p>
 									</div>
 								</div>
@@ -265,6 +272,8 @@
 									<p class="company">ooVoo Android developer</p>
 
 									<p class="talk-title">Playing with new stuff from IO 2013</p>
+
+                                    <p class="talk-desc">What could be cooler than playing with new things from IO 2013, I will show you examples of using things like: AppCompat, Fused Location, Volley and more...</p>
 
 									<p class="time"><span class="time-start">19:15</span> - 20:00</p>
 								</div>
@@ -296,6 +305,8 @@
 
 									<p class="talk-title">5&frac12; Useful Tools For Web Development</p>
 
+                                    <p class="talk-desc">Shai will share with you the most useful tools that are available to make it easier and faster for you to develop web applications.</p>
+
 									<p class="time"><span class="time-start">14:30</span> - 15:15</p>
 								</div>
 
@@ -303,7 +314,7 @@
 									<div class="about">
 										<h4>About Shai</h4>
 										<p>
-											<a href="www.mcterano.com/" target="_blank">www.mcterano.com</a>
+											<a href="http://www.mcterano.com" target="_blank">www.mcterano.com</a>
 										</p>
 									</div>
 								</div>
@@ -322,6 +333,8 @@
 
 									<p class="talk-title">QA Automation - The Full Tour</p>
 
+                                    <p class="talk-desc">What are the Integration Tests methodologies? What are the tools to be used for functional testing? What's the difference between Object-based tools (Selenium, QTP) and Image-based (Sikuli, eggPlant). We'll introduce the caveats of Functional Testing, and what new tools are available to validate the visual aspects of the UI.</p>
+
 									<p class="time"><span class="time-start">15:15</span> - 16:00</p>
 								</div>
 
@@ -329,7 +342,7 @@
 									<div class="about">
 										<h4>About Oren</h4>
 										<p>
-											Over 15 years of experience in the software industry in various roles. Currently the Director of R&D at applitools, where I'm responsible for crafting and leading a disruptive product in the QA automation field using Image Processing.
+											Oren has over 15 years of experience in the software industry in various roles. He is now Director of R&D at Applitools. Oren has vast experience in Distributed Computing (IBM), Compilers (Cadence) and Web Programming (Wix).
 										</p>
 									</div>
 								</div>
@@ -374,6 +387,8 @@
 
 									<p class="talk-title">Stuff I Learned From AppEngine</p>
 
+                                    <p class="talk-desc">The AppEngine is an amazing product, in my lecture I will give a brief overview about the AppEngine platform but dive deeper into the architecture of it that makes is so assume.</p>
+
 									<p class="time"><span class="time-start">17:15</span> - 18:00</p>
 								</div>
 
@@ -400,14 +415,20 @@
 
 									<p class="talk-title">Ember.js vs. Angular.js</p>
 
+                                    <p class="talk-desc">Ember.js is a client side MVC framework which started as a fork from Apple's SproutCore, comprising many capabilities only few could take advantage of. With the help of many contributors such as Yehuda Katz (JQuery, Ruby on Rails) and others, getting started with Ember is now much easier, while keeping its advantages of performance, routing, data bindings and automatic communication with server.</p>
+
 									<p class="time"><span class="time-start">18:30</span> - 19:15</p>
 								</div>
 
 								<div class="col-sm-3">
 									<div class="about">
-										<h4>About Oren</h4>
+										<h4>About Oren &amp; Asaf</h4>
 										<p>
-											Over 15 years of experience in the software industry in various roles. Currently the Director of R&D at applitools, where I'm responsible for crafting and leading a disruptive product in the QA automation field using Image Processing.
+											Oren has over 15 years of experience in the software industry in various roles (IBM, Wix, Cadence, ..) and  is now Director of R&D at Applitools. Oren has vast experience in Front End Development, with emphasis of writing large scale applications using MVC frameworks, and helped write the Wix MVC framework.
+										</p>
+										<br />
+										<p>
+											Asaf is an entrepreneur and a full stack developer. Mamram graduate, over 10 years of experience, founder and CTO of TixWise and Bink. Web consultant.
 										</p>
 									</div>
 								</div>
@@ -425,6 +446,8 @@
 									<p class="company">Senior Architect, MVP, MCT, Sela Group</p>
 
 									<p class="talk-title">Building Scalable JavaScript Apps</p>
+
+                                    <p class="talk-desc">Building and maintaining big and scalable JavaScript web apps is a difficult task. Using and combining proven JavaScript patterns can help to achieve this complicated task. In this workshop we will talk about the patterns that are behind some of the largest JavaScript apps on the Web today.</p>
 
 									<p class="time"><span class="time-start">19:15</span> - 20:00</p>
 								</div>
@@ -459,6 +482,8 @@
 
 									<p class="talk-title">Introduction to UX</p>
 
+                                    <p class="talk-desc">User experience is not about doing wire frames. UX is a gathering of amazing tools that enables us to plan our digital product according to whom we believe is our user and what we think he'll want or do while visiting this product of ours. Only then when every thing is ready to launch - The journey begins.</p>
+
 									<p class="time"><span class="time-start">14:30</span> - 15:15</p>
 								</div>
 
@@ -485,6 +510,8 @@
 
 									<p class="talk-title">Intro to Synthetic Biology</p>
 
+                                    <p class="talk-desc">Genome Compiler was built to enable the design and creation of useful living things to solve our global challenges. Our civilization is totally dependent on finite resources of coal, oil and natural gas.  A radical solution is to harness the power of biology. Living things can use renewable resources such as sugar, sunlight and CO2 and they are versatile enough to produce almost everything we currently get from fossil fuels. Living things can also scale to meet our global challenges. The rapidly falling prices of both reading DNA (sequencing) and writing DNA (synthesis)is the underlying disruptive force for this new field of Synthetic Biology.</p>
+
 									<p class="time"><span class="time-start">15:15</span> - 16:00</p>
 								</div>
 
@@ -510,6 +537,8 @@
 									<p class="company">Founder, Blue Bamboo</p>
 
 									<p class="talk-title">Anatomy of a Startup</p>
+
+                                    <p class="talk-desc">Throwing a startup on the operating table, what do we find? Is every startup a unique snowflake? Not really. What's a good startup made of?</p>
 
 									<p class="time"><span class="time-start">16:30</span> - 17:15</p>
 								</div>
@@ -545,7 +574,8 @@
 									<div class="about">
 										<h4>About Jonathan</h4>
 										<p>
-											
+											Likes wearables, ubiquitous tech, people and the places they meet.
+											An enthusiastic Google, open source and security advocate (not necessarily in that order)
 										</p>
 									</div>
 								</div>
@@ -560,9 +590,11 @@
 								<div class="col-sm-7">
 									<p class="name">Fabio Kon</p>
 
-									<p class="company">Visiting Proffessor, Technion</p>
+									<p class="company">Visiting Professor, Technion</p>
 
-									<p class="talk-title">The Open Source Initiative</p>
+									<p class="talk-title">Benefiting From and Contributing to Open Source Software</p>
+
+                                    <p class='talk-desc'>We will explain how and why you should benefit and contribute to OSS, discussing licenses, communities, code base, quality assessment, and collaboration.</p>
 
 									<p class="time"><span class="time-start">18:30</span> - 19:15</p>
 								</div>
@@ -571,7 +603,10 @@
 									<div class="about">
 										<h4>About Fabio</h4>
 										<p>
-											Full Professor of the Department of Computer Science of the University of São Paulo, Brazil. Researching entrepreneurship in Computer Science and the startup ecosystem.
+											Computer Science Professor at the University of Sao Paulo, Brazil, former Board Member of the Open Source Initiative and passionate agile consultant.
+										</p>
+										<p>
+											<a href="http://www.ime.usp.br/~kon " target="_blank">http://www.ime.usp.br/~kon </a>
 										</p>
 									</div>
 								</div>
@@ -588,7 +623,46 @@
 
 									<p class="company">CTO, SalesPredict</p>
 
-									<p class="talk-title">TBD</p>
+									<p class="talk-title">Predicting Future Events from Large-scale Digital Histories</p>
+
+									<p class='talk-desc'>
+										It has been a long time quest of artificial intelligence to develop
+										systems that can emulate human reasoning. Fundamental capabilities of
+										such intelligent behavior are the abilities to understand causality
+										and to predict. Those are essential for many artificial intelligence
+										tasks that rely on human common-sense reasoning, such as decision
+										making, planning, question-answering, inferring user intentions and
+										responses.
+									</p>
+
+									<a href="" ng-click="kiraDescReadMore=true" ng-hide="kiraDescReadMore">
+										Read more...
+									</a>
+
+									<p class='talk-desc' ng-show="kiraDescReadMore">
+										Much of the causal knowledge that helps humans understand the world is
+										recorded in texts that express people's beliefs and intuitions. The
+										World Wide Web encapsulates much of our human knowledge through news
+										archives and encyclopedias. This knowledge can serve as the basis for
+										performing true human-like prediction - with the ability to learn,
+										understand language, and possess intuitions and general world
+										knowledge.
+									</p>
+
+									<p class='talk-desc' ng-show="kiraDescReadMore">
+										In this talk I will present a learning system, which given an
+										event, represented in natural language, predicts a possible future
+										event it can cause. During its training, we constructed a
+										semantically-structured causality graph of 300 million fact nodes
+										connected by more than one billion edges, based on 150 year old news
+										archive crawled from the web. We devised a machine learning algorithm
+										that infers causality based on this graph. Using common-sense
+										ontologies , it generalizes the events it observes, and thus able to
+										reason about completely new events. We empirically evaluate our system
+										on the 2010 news, and compare our predictions to human predictions. The
+										results indicate that our system predicts similarly to the way humans
+										do.
+									</p>
 
 									<p class="time"><span class="time-start">19:15</span> - 20:00</p>
 								</div>
@@ -597,7 +671,14 @@
 									<div class="about">
 										<h4>About Kira</h4>
 										<p>
-											Dr. Kira Radinsky is passionate about predictive data mining, the construction of algorithms that leverage web knowledge and dynamics to predict future events. 
+											Dr. Kira Radinsky is one of the up and coming voices in the data science community, offering a fresh perspective on data mining and its applications. Her work focuses on the intersection of predictive data mining and the construction of algorithms that leverage web-found information and external dynamics to predict future events.  A graduate of the Technion-Israel Institute of Technology, Dr. Radinsky gained international recognition for her work there and at Microsoft Research where she developed predictive algorithms that recognized the early warning of globally impactful events, (e.g. riots or diseases.)
+										</p>
+										<a href="" ng-click="kiraShowMore=true" ng-hide="kiraShowMore">Read more...</a>
+										<p ng-show="kiraShowMore">
+											Dr. Radinsky is the CTO and cofounder of SalesPredict, a sales technology company.  She is pioneering artificial intelligence based, predictive analytics solutions that transform the way companies do business.
+										</p>
+										<p ng-show="kiraShowMore">
+											In 2013, Kira Radinsky was named to the prestigious "35 Young Innovators Under 35", as chosen by the MIT Technology Review.
 										</p>
 									</div>
 								</div>
@@ -655,6 +736,18 @@
 								<img class="our-partners-logo" src="images/partners/AngularJSIL.jpg" alt="">
 							</a>
 						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 center">
+							<a href="http://www.meetup.com/JavaScript-Israel/" target="_blank">
+								<img class="our-partners-logo" src="images/partners/jsisrael-small.jpg" alt="Javascript Israel">
+							</a>
+						</div>
+						<div class="col-md-3 center">
+							<a href="http://www.meetup.com/Talking-Lean/" target="_blank">
+								<img class="our-partners-logo" src="images/partners/talking-lean-icon.jpg" alt="Talking Lean">
+							</a>
+						</div>
 						<div class="col-md-3 center">
 							<a href="http://www.meetup.com/FrontEnd-IL/" target="_blank">
 								<img class="our-partners-logo" src="images/partners/FrontEndIL.png" alt="">
@@ -665,6 +758,8 @@
 								<img class="our-partners-logo" src="images/partners/fullstack.png" alt="">
 							</a>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-3 center">
 							<a href="http://www.meetup.com/BeerTech/" target="_blank">
 								<img class="our-partners-logo" src="images/partners/BeerTECH.jpg" alt="">
@@ -706,16 +801,35 @@
 			</div>
 		</div>
 
-	<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.6.0/ui-bootstrap-tpls.min.js"></script>
+		<script src="js/app.js?v=4"></script>
 
-		  ga('create', 'UA-45150504-1', 'gdg.co.il');
-		  ga('send', 'pageview');
+		<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	</script>
+			  ga('create', 'UA-45150504-1', 'gdg.co.il');
+			  ga('send', 'pageview');
+		</script>
+  
+<!-- ClickTale Bottom part -->
 
+<script type='text/javascript'>
+// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
+// 
+//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
+//
+// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
+
+document.write(unescape("%3Cscript%20src='"+
+(document.location.protocol=='https:'?
+"https://clicktalecdn.sslcs.cdngc.net/www02/ptc/e5430c1b-8614-44af-bc92-7ce5671a6911.js":
+"http://cdn.clicktale.net/www02/ptc/e5430c1b-8614-44af-bc92-7ce5671a6911.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- ClickTale end of Bottom part -->
 	</body>
 </html>
